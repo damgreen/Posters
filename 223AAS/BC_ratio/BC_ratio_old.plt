@@ -31,10 +31,10 @@ set xrange[0.5:10000]
 
 set style fill pattern 5
 
-plot 'o' using 1:(step0($1)):(step2($1)) notitle  with filledcurve, \
+plot '+' using 1:(step0($1)):(step2($1)) notitle  with filledcurve, \
    "HEAO.txt" using 3:4:($4-($5*$5+$6*$6)**.5):($4+($5*$5+$6*$6)**.5) title 'HEAO-3 C2' with yerrorbars, \
-   "AMS-02.txt" using 3:4:($4-($5*$5+$6*$6)**.5):($4+($5*$5+$6*$6)**.5) title 'AMS-02' with yerrorbars, \
+   "AMS-01.txt" using 3:4:($4-($5*$5+$6*$6)**.5):($4+($5*$5+$6*$6)**.5) title 'AMS-01' with yerrorbars, \
    "ATIC.txt" using 3:4:($4-($5*$5+$6*$6)**.5):($4+($5*$5+$6*$6)**.5) title 'ATIC' with yerrorbars pt 1, \
    "CREAM.txt" using 3:4:($4-($5*$5+$6*$6)**.5):($4+($5*$5+$6*$6)**.5) title 'CREAM' with yerrorbars, \
-   "tracer.txt" using 3:4:($4-($5*$5+$6*$6)**.5):($4+($5*$5+$6*$6)**.5) title 'TRACER' with yerrorbars lt 8
-#   g(x) title 'R = E^{-0.6}' lt 1 
+   "tracer.txt" using 3:4:($4-($5*$5+$6*$6)**.5):($4+($5*$5+$6*$6)**.5) title 'TRACER' with yerrorbars lt 8, \
+   g(x) title 'R = E^{-0.6}' lt 1
