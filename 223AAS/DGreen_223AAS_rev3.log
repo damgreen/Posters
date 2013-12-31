@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  31 DEC 2013 15:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  31 DEC 2013 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -690,20 +690,25 @@ Header
 Header-Shape: roundedright
 Sidebars
 Drawing Text
-name=goals,column=0,span=3, below=abstract,height=0.22
+name=goals,column=0,span=3, below=abstract,height=0.23
 
-Underfull \hbox (badness 1210) in paragraph at lines 81--81
+Underfull \hbox (badness 1210) in paragraph at lines 83--83
 []\T1/cmss/m/n/9 Region not well ex-plored and
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 83--83
+\T1/cmss/bx/n/9 and av-er-age com-po-si-tion of the
  []
 
 <figures/BC_ratio.pdf, id=6, 513.45317pt x 433.62pt>
 File: figures/BC_ratio.pdf Graphic file (type pdf)
 
 <use figures/BC_ratio.pdf>
-Package pdftex.def Info: figures/BC_ratio.pdf used on input line 81.
+Package pdftex.def Info: figures/BC_ratio.pdf used on input line 83.
 (pdftex.def)             Requested size: 147.66652pt x 124.70778pt.
 
-Overfull \hbox (10.93849pt too wide) in paragraph at lines 81--81
+Overfull \hbox (10.93849pt too wide) in paragraph at lines 83--83
  [][] 
  []
 
@@ -725,7 +730,7 @@ Sidebars
 Drawing Text
 name=selection,column=0,span=3, below=goals,height=0.31
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []\T1/cmss/m/n/9 Anti-Coincidence De-tec-tor
  []
 
@@ -733,10 +738,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--121
 File: LATcutaway_full.pdf Graphic file (type pdf)
 
 <use LATcutaway_full.pdf>
-Package pdftex.def Info: LATcutaway_full.pdf used on input line 121.
+Package pdftex.def Info: LATcutaway_full.pdf used on input line 123.
 (pdftex.def)             Requested size: 147.66652pt x 123.65096pt.
 
-Overfull \hbox (10.93849pt too wide) in paragraph at lines 121--121
+Overfull \hbox (10.93849pt too wide) in paragraph at lines 123--123
  [][] 
  []
 
@@ -761,10 +766,10 @@ name=pathlength,column=0,span=3, below=selection,height=0.35
 File: figures/species.pdf Graphic file (type pdf)
 
 <use figures/species.pdf>
-Package pdftex.def Info: figures/species.pdf used on input line 146.
+Package pdftex.def Info: figures/species.pdf used on input line 149.
 (pdftex.def)             Requested size: 312.95703pt x 98.81612pt.
 
-Overfull \hbox (9.11488pt too wide) in paragraph at lines 146--146
+Overfull \hbox (9.11488pt too wide) in paragraph at lines 149--149
 [][] 
  []
 
@@ -788,10 +793,10 @@ name=box2,column=3,span=3, below=abstract,height=0.215
 <figures/coeff.pdf, id=9, 526.89076pt x 397.13298pt>
 File: figures/coeff.pdf Graphic file (type pdf)
  <use figures/coeff.pdf>
-Package pdftex.def Info: figures/coeff.pdf used on input line 175.
+Package pdftex.def Info: figures/coeff.pdf used on input line 178.
 (pdftex.def)             Requested size: 162.55664pt x 122.52214pt.
 
-Overfull \hbox (10.63557pt too wide) in paragraph at lines 175--175
+Overfull \hbox (10.63557pt too wide) in paragraph at lines 178--178
  [][] 
  []
 
@@ -813,7 +818,7 @@ Sidebars
 Drawing Text
 name=box4,column=3,span=3, below=box2,height=0.235
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
 
  []
 
@@ -821,10 +826,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--202
 File: figures/spectrum_fuck.pdf Graphic file (type pdf)
 
 <use figures/spectrum_fuck.pdf>
-Package pdftex.def Info: figures/spectrum_fuck.pdf used on input line 202.
+Package pdftex.def Info: figures/spectrum_fuck.pdf used on input line 205.
 (pdftex.def)             Requested size: 312.95703pt x 99.46451pt.
 
-Overfull \hbox (9.11488pt too wide) in paragraph at lines 202--202
+Overfull \hbox (9.11488pt too wide) in paragraph at lines 205--205
  [][] 
  []
 
@@ -844,18 +849,23 @@ Header
 Header-Shape: roundedright
 Sidebars
 Drawing Text
-name=box5,column=3,span=3, below=box4,height=0.23
+name=box5,column=3,span=3, below=box4,height=0.22
 
 <figures/CalEnergyRaw-CalFullLen_Pass7_mom.pdf, id=11, 569.12625pt x 385.44pt>
 File: figures/CalEnergyRaw-CalFullLen_Pass7_mom.pdf Graphic file (type pdf)
 
 <use figures/CalEnergyRaw-CalFullLen_Pass7_mom.pdf>
 Package pdftex.def Info: figures/CalEnergyRaw-CalFullLen_Pass7_mom.pdf used on 
-input line 229.
+input line 230.
 (pdftex.def)             Requested size: 164.07503pt x 111.1219pt.
 
-Overfull \hbox (12.15396pt too wide) in paragraph at lines 229--229
+Overfull \hbox (12.15396pt too wide) in paragraph at lines 230--230
  [][] 
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 230--230
+[][]\T1/cmss/bx/n/9 Figure 6[][]: [][]|\T1/cmss/m/it/9 Monte Carlo En-ergy vs
  []
 
 Setting Coordinates
@@ -918,11 +928,11 @@ tio.pdf> <./LATcutaway_full.pdf> <./figures/species.pdf> <./figures/coeff.pdf>
 Here is how much of TeX's memory you used:
  13544 strings out of 493315
  254162 string characters out of 6137904
- 379258 words of memory out of 5000000
+ 379221 words of memory out of 5000000
  16707 multiletter control sequences out of 15000+600000
  20018 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,11n,94p,685b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,94p,470b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2
 013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013
@@ -942,7 +952,7 @@ ts/type1/public/cm-super/sfsx0900.pfb></usr/local/texlive/2013/texmf-dist/fonts
 ype1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/
 helvetic/uhvr8a.pfb>
-Output written on DGreen_223AAS_rev3.pdf (1 page, 1530613 bytes).
+Output written on DGreen_223AAS_rev3.pdf (1 page, 1535488 bytes).
 PDF statistics:
  226 PDF objects out of 1000 (max. 8388607)
  146 compressed objects within 2 object streams
