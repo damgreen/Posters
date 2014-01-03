@@ -109,12 +109,12 @@ In addition we present a preliminary study to measure cosmic ray energy via the 
     \begin{minipage}[t]{0.45\textwidth}
       \vspace{0pt} % Yes: you need this one...      
             \centering\includegraphics[width=1.08 \textwidth]{LATcutaway_full.pdf}
-      \captionof{figure}{Cut a way diagram of the LAT with subsystems labeled and an example of a cosmic ray interaction.}
+      \captionof{figure}{Cutaway diagram of the LAT with subsystems labeled and an example of a cosmic ray interaction.}
       
      \end{minipage}
 
 \begin{itemize}
-\item Majority of events measured by \emph{Fermi} are cosmic-rays
+\item Majority of events measured by \emph{Fermi} are cosmic rays
 \begin{itemize}
 \item Galactic origin electrons, protons, helium, and heavy elements (Z$\geq$3)
 \end{itemize}
@@ -125,11 +125,11 @@ In addition we present a preliminary study to measure cosmic ray energy via the 
   }
 
 
-  \headerbox{Selecting Cosmic-Ray Nuclei}{name=pathlength,column=0,span=3,
-    below=selection,height=0.345}{
+  \headerbox{Cosmic-Ray Nuclei Calibration Sample}{name=pathlength,column=0,span=3,
+    below=selection,height=0.3475}{
 
 \begin{itemize}
-\item Three main requirements
+\item Three main requirements:
 \begin{itemize}
 \item Well reconstructed track in Tracker (TKR)
 \item Large energy deposit in Anti-Coincidence Detector (ACD)
@@ -146,7 +146,7 @@ In addition we present a preliminary study to measure cosmic ray energy via the 
 \end{itemize}
 
  \includegraphics[width =  1.03 \textwidth]{species.pdf}  
-      \captionof{figure}{Pathlength corrected energy deposition in the top of CAL.  Red areas indicate selection used for calibration sample.}
+      \captionof{figure}{Path length corrected energy deposition in the top of CAL.  Red areas indicate selection used for calibration sample.}
 
   }
 
@@ -159,13 +159,13 @@ In addition we present a preliminary study to measure cosmic ray energy via the 
 
 \begin{enumerate}
 %\item Create response map for ACD signal for each element and path length through ACD
-\item Average ACD signal for each element for all tiles and pathlength (proportional to incoming angle wrt to LAT) through ACD
+\item Average ACD signal for each element for all tiles and path length (proportional to incoming angle w.r.t. to LAT) through ACD
 %\item Determine coefficients to align each tile's element to their averages across entire ACD
 %\item Plot signal for single tile vs average signal across entire ACD
 %\item Fit data using power-law
-\item Align each tile's signal for a given element and pathlength to its global average by fitting the data with a power law
+\item Align each tile's signal for a given element and path length to its global average by fitting the channel's data with a power law
 \item Use coefficients from fit to determine new uniform PHA for each event
-\item Apply correction coefficients and pathlength correction to data
+\item Apply correction coefficients and path length correction to data
 \end{enumerate}
 
 
@@ -174,7 +174,7 @@ In addition we present a preliminary study to measure cosmic ray energy via the 
     \begin{minipage}[t]{0.5\textwidth}
       \vspace{0pt} 
       \centering\includegraphics[width=1.07 \textwidth]{coeff.pdf}
-      \captionof{figure}{Response for tile 212 PMT 0 for all charges and pathlengths.}
+      \captionof{figure}{Response for tile 212 PMT 0 for all charges and path lengths.}
       
     \end{minipage}
   }
@@ -188,8 +188,8 @@ In addition we present a preliminary study to measure cosmic ray energy via the 
 \begin{itemize}
 \item B, C, O, Ne, Mg, Si and Fe peaks all become visible in ACD data
 \item Uniform response improves ACD charge resolution, reduces charge overlap
-\item New pathlength correction eliminates angular dependence in ACD data
-\item Possible to use ACD (and CAL) to select cosmic ray elements
+\item New path length correction eliminates angular dependence in ACD data
+\item Now possible to use ACD (and CAL) to select cosmic ray elements
 \end{itemize}
 
     \end{minipage}
@@ -209,12 +209,12 @@ In addition we present a preliminary study to measure cosmic ray energy via the 
 
 
   \headerbox{Energy Measurement and the Future}{name=box5,column=3,span=3,
-    below=box4,height=0.22}{
+    below=box4,height=0.23}{
 \begin{minipage}[b]{0.45 \textwidth}
       \vspace{0pt} % Yes: you need this one...
 \begin{itemize}
-\item Simulations show incident energy scales with deposited energy in CAL
-\item Use long pathlength events to calibrate Monte Carlo simulation
+\item Simulations show that incident energy scales with deposited energy in CAL
+\item Use long path length events to calibrate Monte Carlo simulation
 \item ``Unfold" incident energy from deposited energy
 \item Use charge  and energy  to measure the energy dependence of the B:C ratio
 \item Explore properties of cosmic-ray propagation and the Galaxy using the B:C ratio
@@ -226,19 +226,20 @@ In addition we present a preliminary study to measure cosmic ray energy via the 
 
 \centering\includegraphics[width=1.08 \textwidth]{CalEnergyRaw-CalFullLen_Pass7_mom}
 %\centering\includegraphics[width=1.08 \textwidth]{CalEnergyRaw_CalCfpEffRLn.pdf}
-\captionof{figure}{Monte Carlo Energy vs \mbox{Deposited Energy per unit pathlength.}}            
+\captionof{figure}{Monte Carlo Energy per amu vs \mbox{Deposited} Energy per unit path length in units of g/cm$^{2}$.}            
 \end{minipage}
 
 }
 
 
-\headerbox{Conclusion}{name=summarybox, column=3,span=3, below=box5, height=0.13}{
+\headerbox{Conclusion}{name=summarybox, column=3,span=3, below=box5, height=0.11}{
 
 \begin{itemize}
-\item We are able to measure cosmic-ray nuclei charge and energy with the LAT
-\item ACD charge resolution is drastically improved via uniform signal and pathlength correction using cosmic-ray nuclei as a calibration source
-\item Simulations suggest correlation between energy deposited and incident energy of cosmic ray
-\item Combine Z and E measurements to study the boron to carbon ratio
+\item We are able to measure cosmic rays' charge and energy with the LAT.
+\item ACD charge resolution is drastically improved via uniform signal and path length correction using cosmic-ray nuclei as a calibration source
+\item Simulations suggest incident energy and deposited energy are correlated
+\item Study boron to carbon ratio using combined Z and E measurements
+%\item Combine Z and E measurements to study the boron to carbon ratio
 \end{itemize}
 }
 

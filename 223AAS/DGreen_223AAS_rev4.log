@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  2 JAN 2014 20:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 JAN 2014 16:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1002,7 +1002,7 @@ Header
 Header-Shape: roundedright
 Sidebars
 Drawing Text
-name=pathlength,column=0,span=3, below=selection,height=0.345
+name=pathlength,column=0,span=3, below=selection,height=0.3475
 <figures/species.pdf, id=8, 1121.44913pt x 354.11359pt>
 File: figures/species.pdf Graphic file (type pdf)
 
@@ -1090,7 +1090,7 @@ Header
 Header-Shape: roundedright
 Sidebars
 Drawing Text
-name=box5,column=3,span=3, below=box4,height=0.22
+name=box5,column=3,span=3, below=box4,height=0.23
 
 <figures/CalEnergyRaw-CalFullLen_Pass7_mom.pdf, id=11, 569.12625pt x 385.44pt>
 File: figures/CalEnergyRaw-CalFullLen_Pass7_mom.pdf Graphic file (type pdf)
@@ -1102,11 +1102,6 @@ input line 232.
 
 Overfull \hbox (12.15396pt too wide) in paragraph at lines 232--232
  [][] 
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 232--232
-[][]\T1/cmss/bx/n/9 Figure 6[][]: [][]|\T1/cmss/m/it/9 Monte Carlo En-ergy vs
  []
 
 Setting Coordinates
@@ -1125,7 +1120,7 @@ Header
 Header-Shape: roundedright
 Sidebars
 Drawing Text
-name=summarybox, column=3,span=3, below=box5, height=0.13
+name=summarybox, column=3,span=3, below=box5, height=0.11
 Setting Coordinates
 Upper Right
 summarybox
@@ -1182,24 +1177,25 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></u
 sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsi0900.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on DGreen_223AAS_rev4.pdf (1 page, 1536848 bytes).
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
+cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsi0900.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on DGreen_223AAS_rev4.pdf (1 page, 1544329 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
+ 230 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
